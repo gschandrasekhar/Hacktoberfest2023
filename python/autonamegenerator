@@ -1,0 +1,17 @@
+import random
+
+# Define lists of syllables for generating names
+syllables_start = ['ra', 'ki', 'zo', 'fe', 'lo', 'ga']
+syllables_middle = ['na', 'li', 'ro', 'ka', 'mu', 'te']
+syllables_end = ['do', 'pi', 'ju', 'vi', 'xo', 'zu']
+
+# Function to generate a random name
+def generate_name():
+    name = random.choice(syllables_start)
+    name += random.choice(syllables_middle)
+    name += random.choice(syllables_end)
+    return name
+
+# Generate and print a random name
+random_name = generate_name()
+print("Generated Name:", random_name)
