@@ -1,4 +1,4 @@
-
+# THIS REPO IS EXCLUDED FROM HACKTOBERFEST. 
 # Code Snippets for Hacktoberfest
 
 Welcome to the Code Snippets for Hacktoberfest repository! This project is created to encourage beginner open source enthusiasts to contribute their code snippets while fostering good coding practices. We believe in the value of original contributions, and we're here to help you grow as a developer.
